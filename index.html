@@ -1,13 +1,165 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Kalidas R.</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;800&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+
+    <!-- Responsive design -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+
+    <!-- Primary SEO -->
+    <title>Kalidas R. — Web Developer & UI Designer</title>
+
+    <meta
+      name="description"
+      content="I'm Kalidas R., a web developer and UI designer from Wayanad, Kerala, India. Explore my portfolio, projects, and creative digital experiences."
+    />
+
+    <meta name="author" content="Kalidas R." />
+    <meta name="creator" content="Kalidas R." />
+    <meta name="publisher" content="Kalidas R." />
+
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+
+    <meta name="googlebot" content="index, follow" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="color-scheme" content="light" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kalidas-dev.vercel.app/" />
+
+    <!-- Favicon and app icons -->
+    <link rel="icon" type="image/png" href="/assets/me.png" />
+    <link rel="apple-touch-icon" href="/assets/me.png" />
+
+    <!-- Profile / social sharing image preload -->
+    <link
+      rel="preload"
+      as="image"
+      href="/assets/me.png"
+      fetchpriority="high"
+    />
+
+    <!-- Font performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+
+    <!-- Typography -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Open Graph: Facebook, WhatsApp, LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:site_name" content="Kalidas R." />
+
+    <meta
+      property="og:title"
+      content="Kalidas R. — Web Developer & UI Designer"
+    />
+
+    <meta
+      property="og:description"
+      content="Discover my web development projects, modern interfaces, and creative digital experiences."
+    />
+
+    <meta property="og:url" content="https://kalidas-dev.vercel.app/" />
+
+    <meta
+      property="og:image"
+      content="https://kalidas-dev.vercel.app/assets/me.png"
+    />
+
+    <meta property="og:image:alt" content="Kalidas R. — Web Developer" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta
+      name="twitter:title"
+      content="Kalidas R. — Web Developer & UI Designer"
+    />
+
+    <meta
+      name="twitter:description"
+      content="Explore my portfolio, web development projects, and creative digital experiences."
+    />
+
+    <meta
+      name="twitter:image"
+      content="https://kalidas-dev.vercel.app/assets/me.png"
+    />
+
+    <meta name="twitter:image:alt" content="Kalidas R. — Web Developer" />
+
+    <!-- Structured data: Person -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "https://kalidas-dev.vercel.app/#person",
+        "name": "Kalidas R.",
+        "url": "https://kalidas-dev.vercel.app/",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://kalidas-dev.vercel.app/assets/me.png"
+        },
+        "jobTitle": "Web Developer and UI Designer",
+        "description": "Web developer and UI designer creating modern websites and digital experiences.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Wayanad",
+          "addressRegion": "Kerala",
+          "addressCountry": "IN"
+        },
+        "knowsAbout": [
+          "Web Development",
+          "Frontend Development",
+          "React",
+          "TypeScript",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "UI Design",
+          "Responsive Web Design"
+        ]
+      }
+    </script>
+
+    <!-- Website structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://kalidas-dev.vercel.app/#website",
+        "name": "Kalidas R. — Portfolio",
+        "url": "https://kalidas-dev.vercel.app/",
+        "description": "Official portfolio of Kalidas R., web developer and UI designer.",
+        "inLanguage": "en-IN",
+        "author": {
+          "@id": "https://kalidas-dev.vercel.app/#person"
+        }
+      }
+    </script>
   </head>
+
   <body>
+    <!-- React application -->
     <div id="root"></div>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
