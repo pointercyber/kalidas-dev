@@ -44,7 +44,6 @@ type Project = { name: string; url?: string };
 const PROJECTS: Project[] = [
   { name: "Bytewise", url: "https://bytewise-zeta.vercel.app/" },
   { name: "C Bytewise", url: "https://cbytewise.vercel.app/" },
-  { name: "Next project" }, { name: "Experiment 01" }, { name: "Experiment 02" }, { name: "Something new" },
 ];
 
 export function Work() {
