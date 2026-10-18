@@ -11,4 +11,3 @@ npm run build    # production build in /dist
 - `src/sections.tsx` — Hero, Work (with Load more), Services, Process, About, Contact
 - `src/assets/me.png` — your cutout photo
 - Deploy `dist/` to Vercel, Netlify or GitHub Pages.
-# kalidas-dev
